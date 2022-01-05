@@ -3,12 +3,12 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -33,6 +33,7 @@ section{
 }
 .para{
     text-align: justify;
+    padding-right: 5px;
 }
 #mid{
     background-image: url(images/dream-bg.png);
@@ -40,3 +41,8 @@ section{
     background-position: right;
     padding-right: 5px;
 }
+#last{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
